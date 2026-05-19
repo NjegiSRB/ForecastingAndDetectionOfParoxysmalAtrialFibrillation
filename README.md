@@ -11,8 +11,8 @@ This GitHub repository presents the **_code_1D_final.ipynb_** file which contain
 
 Because GitHub enforces strict file size limits, essential folders such as **_iridia-af-records-v1.0.1_**, **_2D_data_forecasting_**, **_2D_data_detection_** and **_results_** needs to be retrived from other sources. The **_iridia-af-records-v1.0.1_** folder can be downloaded and unzipped following the link provided in the **_Database_** section. The **_2D_data_forecasting_**, **_2D_data_detection_** and **_results_** folders can be downloaded and unzipped from the following link: https://www.kaggle.com/datasets/cafeeee/forecasting-and-detection-of-afafib
 
-After downloading and unzipping these folders, ensure to have the following structure:
-<img width="326" height="300" alt="image" src="https://github.com/user-attachments/assets/753de221-4ca4-4290-b33b-aa8e11242ce0" />
+After downloading and unzipping these folders, ensure to have the following structure: \newline
+<img width="326" height="300" alt="image" src="https://github.com/user-attachments/assets/753de221-4ca4-4290-b33b-aa8e11242ce0"/>
 
 
 The purpose of the folders are explained below:
