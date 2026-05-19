@@ -27,7 +27,8 @@ Considering the paths presented below related, respectively, to the **_iridia-af
 2D_data_detection/..._sec_lead_..._data/Normal/Patient_---specify---
 iridia-af-records-v1.0.1/record_---specify---
 ```
-For example, considering **_2D_data_detection_** folder and the following path: 2D_data_detection/10_sec_lead_0_data/Normal/Patient_---specify---. Ensure that the patient folders are defined in ascending order:
+For example, considering **_2D_data_detection_** folder and the following path: <br>
+2D_data_detection/10_sec_lead_0_data/Normal/Patient_---specify---. Ensure that the patient folders are defined in ascending order:
 ```
 Patient_0, Patient_1, Patient_2, Patient_3 etc.
 ```
