@@ -4,16 +4,15 @@ This GitHub repository is associated with the following thesis: 📄 will be upl
 
 ## Description of the repository
 
-This GitHub repository presents the **_code_1D_final.ipynb_** file which contains the code used to develop, train, validate, and test various transparent 1D and 2D Convolutional Neural Networks (CNNs) that were used to forecast and detect Paroxysmal Atrial Fibrillation (AF/AFib). Additionaly, the code was used for the following processes:
+This GitHub repository presents the **_code_1D_final.ipynb_** file which contains the code used to develop, train, validate, and test various transparent 1D and 2D Convolutional Neural Networks (CNNs) that were used to forecast and detect Paroxysmal Atrial Fibrillation (AF/AFib/PAF). Additionaly, the code was used for the following processes:
 - Accessing the ECG data and annotation data, respectively, from the ECG waveform data files (H5 format) and their associated annotation file (CSV format) in the IRIDIA-AF database.  
 - Pre-processing and generation of 10 and 30 seconds 1D ECG signal windows, as well as 2D spectrograms derived from lead I and lead II, based on the data from the ECG waveform data files (H5 format) and their asscoiated annotation file (CSV format) in the IRIDIA-AF database, which served as input data for the developed 1D and 2D CNN models.
-- Application of various Explainable AI (XAI) techniques, such as Grad-CAM, Guided Grad-CAM (low resolution maps), Guided Grad-CAM (high resolution maps), and LRP, to interpret and assess the decision-making process of the various developed 1D and 2D CNN models.
+- Application of various Explainable AI (XAI) techniques, such as Grad-CAM, Guided Grad-CAM (low resolution maps), Guided Grad-CAM (high resolution maps), and Layer-wise Relevance Propagation (LRP), to interpret and assess the decision-making process of the various developed 1D and 2D CNN models.
 
 Because GitHub enforces strict file size limits, essential folders such as **_iridia-af-records-v1.0.1_**, **_2D_data_forecasting_**, **_2D_data_detection_** and **_results_** needs to be retrived from other sources. The **_iridia-af-records-v1.0.1_** folder can be downloaded and unzipped following the link provided in the **_Database_** section. The **_2D_data_forecasting_**, **_2D_data_detection_** and **_results_** folders can be downloaded and unzipped from the following link: https://www.kaggle.com/datasets/cafeeee/forecasting-and-detection-of-afafib
 
 After downloading and unzipping these folders, ensure to have the following structure: <br>
 <img width="226" height="200" alt="image" src="https://github.com/user-attachments/assets/753de221-4ca4-4290-b33b-aa8e11242ce0"/>
-
 
 The purpose of the folders are explained below:
 - **_iridia-af-records-v1.0.1_**: this folder continas the Holter records of the different involved patients. Each Holter record contians one or more ECG waveform data files (H5 format) and one associated annotations file (CSV format), from which data was utilized in the **_code_1D_final_ipynb_** file to generate the input data for the various developed 1D and 2D CNN models.
